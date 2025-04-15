@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Primera Página Web</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: red;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav {
+      background: #333;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 2em;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    button {
+      padding: 0.5em 1em;
+      font-size: 1em;
+      margin-top: 1em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenido a Mi Página Web</h1>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#sobre">Sobre mí</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <main>
+    <h2 id="inicio">Hola 👋</h2>
+    <p>Esta es mi primera página web hecha con HTML, CSS y JavaScript.</p>
+    
+    <h3 id="sobre">Sobre mí</h3>
+    <p>Soy una persona curiosa aprendiendo a crear sitios web.</p>
+
+    <button onclick="mostrarMensaje()">Haz clic aquí</button>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MiNombre. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    function mostrarMensaje() {
+      alert("¡Gracias por visitar mi página!");
+    }
+  </script>
+
+</body>
+</html>
