@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi Primera Página Web</title>
   <style>
-    body {
+    body {                                                                                      
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
       color: #333;
@@ -15,7 +15,7 @@
 
     header {
       background-color: #4CAF50;
-      color: red;
+      color: white;
       padding: 1em;
       text-align: center;
     }
@@ -76,7 +76,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 MiNombre. Todos los derechos reservados.</p>
+    <p>&copy; 2025 Samuel12346436. Todos los derechos reservados. Visítame en <a href="https://github.com/samuel12346436" target="_blank" style="color: #4CAF50;">GitHub</a>.</p>
   </footer>
 
   <script>
@@ -87,3 +87,4 @@
 
 </body>
 </html>
+
